@@ -1,0 +1,80 @@
+[tool.uv.workspace]
+members = ["."]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ag2-zh-cn"
+version = "0.0.1"
+license = {file = "LICENSE-CODE"}
+description = "AG2 documentation in Chinese zh-cn"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    # Documentation
+    "myst-nb==1.1.2",
+    "pydata-sphinx-theme==0.15.4",
+    "sphinx-copybutton",
+    "sphinx-design",
+    "sphinx",
+    "sphinxcontrib-apidoc",
+    "autodoc_pydantic~=2.2",
+    "linkify-it-py",
+]
+
+[tool.uv]
+dev-dependencies = [
+    # Documentation tooling
+    "sphinx-autobuild",
+    "poethepoet",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+# Docs
+docs-clean = "rm -rf docs/build && rm -rf docs/src/reference/python/"
+
+#docs-apidoc-core = "sphinx-apidoc --templatedir docs/src/_apidoc_templates --no-toc --separate --force -o docs/src/reference/python/autogen_core src/autogen_core src/autogen_core/application/protos/"
+#docs-apidoc-agentchat = "sphinx-apidoc --templatedir docs/src/_apidoc_templates --no-toc --separate --force -o docs/src/reference/python/autogen_agentchat ../autogen-agentchat/src/autogen_agentchat"
+#docs-apidoc-ext = "sphinx-apidoc --templatedir docs/src/_apidoc_templates --no-toc --separate --force -o docs/src/reference/python/autogen_ext ../autogen-ext/src/autogen_ext ../autogen-ext/src/autogen_ext/code_executor ../autogen-ext/src/autogen_ext/tools/langchain"
+#docs-apidoc-all = [
+#    "docs-apidoc-core",
+#    "docs-apidoc-agentchat",
+#    "docs-apidoc-ext",
+#]
+
+# Inline tables are WAY easier to read but for some reason they break pyright. So we have to write it out this way.
+# Example of inline table:
+# docs-build = [
+#     "docs-apidoc-all",
+#     { cmd = "sphinx-build docs/src docs/build" }
+# ]
+
+#[[tool.poe.tasks.docs-build.sequence]]
+#ref = "docs-apidoc-all"
+
+[[tool.poe.tasks.docs-build.sequence]]
+cmd = "sphinx-build docs/src docs/build"
+
+#[[tool.poe.tasks.docs-serve.sequence]]
+#ref = "docs-apidoc-all"
+
+[[tool.poe.tasks.docs-serve.sequence]]
+cmd = "sphinx-autobuild docs/src docs/build --watch docs/src --port 18000 --jobs auto"
+
+#[[tool.poe.tasks.docs-check.sequence]]
+#ref = "docs-apidoc-all"
+
+#[[tool.poe.tasks.docs-check.sequence]]
+#ref = "docs-apidoc-all"
+
+[[tool.poe.tasks.docs-check.sequence]]
+cmd = "sphinx-build --fail-on-warning docs/src docs/build"

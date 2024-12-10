@@ -1,0 +1,63 @@
+[
+  {
+    "title": "The current opportunities and challenges of Web 3.0",
+    "authors": [
+      "Yuqing Fan",
+      "Tianyi Huang",
+      "Yiran Meng",
+      "Shenghui Cheng"
+    ],
+    "published": "2023-06-06",
+    "abstract": "With recent advancements in AI and 5G technologies,as well as the nascent\nconcepts of blockchain and metaverse,a new revolution of the Internet,known as\nWeb 3.0,is emerging. Given its significant potential impact on the internet\nlandscape and various professional sectors,Web 3.0 has captured considerable\nattention from both academic and industry circles. This article presents an\nexploratory analysis of the opportunities and challenges associated with Web\n3.0. Firstly, the study evaluates the technical differences between Web 1.0,\nWeb 2.0, and Web 3.0, while also delving into the unique technical architecture\nof Web 3.0. Secondly, by reviewing current literature, the article highlights\nthe current state of development surrounding Web 3.0 from both economic and\ntechnological perspective. Thirdly, the study identifies numerous research and\nregulatory obstacles that presently confront Web 3.0 initiatives. Finally, the\narticle concludes by providing a forward-looking perspective on the potential\nfuture growth and progress of Web 3.0 technology.",
+    "pdf_url": "http://arxiv.org/pdf/2306.03351v1"
+  },
+  {
+    "title": "Beyond Browsing: API-Based Web Agents",
+    "authors": [
+      "Yueqi Song",
+      "Frank Xu",
+      "Shuyan Zhou",
+      "Graham Neubig"
+    ],
+    "published": "2024-10-21",
+    "abstract": "Web browsers are a portal to the internet, where much of human activity is\nundertaken. Thus, there has been significant research work in AI agents that\ninteract with the internet through web browsing. However, there is also another\ninterface designed specifically for machine interaction with online content:\napplication programming interfaces (APIs). In this paper we ask -- what if we\nwere to take tasks traditionally tackled by browsing agents, and give AI agents\naccess to APIs? To do so, we propose two varieties of agents: (1) an\nAPI-calling agent that attempts to perform online tasks through APIs only,\nsimilar to traditional coding agents, and (2) a Hybrid Agent that can interact\nwith online data through both web browsing and APIs. In experiments on\nWebArena, a widely-used and realistic benchmark for web navigation tasks, we\nfind that API-based agents outperform web browsing agents. Hybrid Agents\nout-perform both others nearly uniformly across tasks, resulting in a more than\n20.0% absolute improvement over web browsing alone, achieving a success rate of\n35.8%, achiving the SOTA performance among task-agnostic agents. These results\nstrongly suggest that when APIs are available, they present an attractive\nalternative to relying on web browsing alone.",
+    "pdf_url": "http://arxiv.org/pdf/2410.16464v1"
+  },
+  {
+    "title": "Predicting the Impact of Generative AI Using an Agent-Based Model",
+    "authors": [
+      "Joao Tiago Aparicio",
+      "Manuela Aparicio",
+      "Sofia Aparicio",
+      "Carlos J. Costa"
+    ],
+    "published": "2024-08-30",
+    "abstract": "Generative artificial intelligence (AI) systems have transformed various\nindustries by autonomously generating content that mimics human creativity.\nHowever, concerns about their social and economic consequences arise with\nwidespread adoption. This paper employs agent-based modeling (ABM) to explore\nthese implications, predicting the impact of generative AI on societal\nframeworks. The ABM integrates individual, business, and governmental agents to\nsimulate dynamics such as education, skills acquisition, AI adoption, and\nregulatory responses. This study enhances understanding of AI's complex\ninteractions and provides insights for policymaking. The literature review\nunderscores ABM's effectiveness in forecasting AI impacts, revealing AI\nadoption, employment, and regulation trends with potential policy implications.\nFuture research will refine the model, assess long-term implications and\nethical considerations, and deepen understanding of generative AI's societal\neffects.",
+    "pdf_url": "http://arxiv.org/pdf/2408.17268v1"
+  },
+  {
+    "title": "Unleashing the Power of AI. A Systematic Review of Cutting-Edge Techniques in AI-Enhanced Scientometrics, Webometrics, and Bibliometrics",
+    "authors": [
+      "Hamid Reza Saeidnia",
+      "Elaheh Hosseini",
+      "Shadi Abdoli",
+      "Marcel Ausloos"
+    ],
+    "published": "2024-02-22",
+    "abstract": "Purpose: The study aims to analyze the synergy of Artificial Intelligence\n(AI), with scientometrics, webometrics, and bibliometrics to unlock and to\nemphasize the potential of the applications and benefits of AI algorithms in\nthese fields.\n  Design/methodology/approach: By conducting a systematic literature review,\nour aim is to explore the potential of AI in revolutionizing the methods used\nto measure and analyze scholarly communication, identify emerging research\ntrends, and evaluate the impact of scientific publications. To achieve this, we\nimplemented a comprehensive search strategy across reputable databases such as\nProQuest, IEEE Explore, EBSCO, Web of Science, and Scopus. Our search\nencompassed articles published from January 1, 2000, to September 2022,\nresulting in a thorough review of 61 relevant articles.\n  Findings: (i) Regarding scientometrics, the application of AI yields various\ndistinct advantages, such as conducting analyses of publications, citations,\nresearch impact prediction, collaboration, research trend analysis, and\nknowledge mapping, in a more objective and reliable framework. (ii) In terms of\nwebometrics, AI algorithms are able to enhance web crawling and data\ncollection, web link analysis, web content analysis, social media analysis, web\nimpact analysis, and recommender systems. (iii) Moreover, automation of data\ncollection, analysis of citations, disambiguation of authors, analysis of\nco-authorship networks, assessment of research impact, text mining, and\nrecommender systems are considered as the potential of AI integration in the\nfield of bibliometrics.\n  Originality/value: This study covers the particularly new benefits and\npotential of AI-enhanced scientometrics, webometrics, and bibliometrics to\nhighlight the significant prospects of the synergy of this integration through\nAI.",
+    "pdf_url": "http://arxiv.org/pdf/2403.18838v1"
+  },
+  {
+    "title": "Trust in AI: Progress, Challenges, and Future Directions",
+    "authors": [
+      "Saleh Afroogh",
+      "Ali Akbari",
+      "Evan Malone",
+      "Mohammadali Kargar",
+      "Hananeh Alambeigi"
+    ],
+    "published": "2024-03-12",
+    "abstract": "The increasing use of artificial intelligence (AI) systems in our daily life\nthrough various applications, services, and products explains the significance\nof trust/distrust in AI from a user perspective. AI-driven systems (as opposed\nto other technologies) have ubiquitously diffused in our life not only as some\nbeneficial tools to be used by human agents but also are going to be\nsubstitutive agents on our behalf, or manipulative minds that would influence\nhuman thought, decision, and agency. Trust/distrust in AI plays the role of a\nregulator and could significantly control the level of this diffusion, as trust\ncan increase, and distrust may reduce the rate of adoption of AI. Recently,\nvarieties of studies have paid attention to the variant dimension of\ntrust/distrust in AI, and its relevant considerations. In this systematic\nliterature review, after conceptualization of trust in the current AI\nliterature review, we will investigate trust in different types of\nhuman-Machine interaction, and its impact on technology acceptance in different\ndomains. In addition to that, we propose a taxonomy of technical (i.e., safety,\naccuracy, robustness) and non-technical axiological (i.e., ethical, legal, and\nmixed) trustworthiness metrics, and some trustworthy measurements. Moreover, we\nexamine some major trust-breakers in AI (e.g., autonomy and dignity threat),\nand trust makers; and propose some future directions and probable solutions for\nthe transition to a trustworthy AI.",
+    "pdf_url": "http://arxiv.org/pdf/2403.14680v3"
+  }
+]
