@@ -4,8 +4,6 @@ https://ag2.cn
 
 AG2 documentation is based on the sphinx documentation system and uses the myst-parser to render markdown files. It uses the [pydata-sphinx-theme](https://pydata-sphinx-theme.readthedocs.io/en/latest/) to style the documentation.
 
-- [简介](docs/src/index.md)
-
 ### Prerequisites
 
 You can install them by running the following command from the root of the python repository:
